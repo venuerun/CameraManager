@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "CameraManager",
-            path: "Sources"
+            path: "camera"
         )
     ]
 )
