@@ -742,6 +742,7 @@ open class CameraManager: NSObject, AVCaptureFileOutputRecordingDelegate, UIGest
     /**
      Starts recording a video with or without voice as in the session preset.
      */
+    @available(iOS 9.0, *)
     open func startRecordingVideo() {
         if cameraOutputMode != .stillImage {
             let videoOutput = _getMovieOutput()
